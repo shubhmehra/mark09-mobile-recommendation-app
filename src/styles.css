@@ -15,7 +15,6 @@
   border-radius: 5px;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin: 1rem;
   cursor: pointer;
 }
@@ -30,7 +29,6 @@
   border-radius: 5px;
   border: 1px solid #fe9898;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin: 1rem;
   cursor: pointer;
 }
