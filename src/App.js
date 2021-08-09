@@ -99,6 +99,13 @@ export default function App() {
             return (
               <li key={mobile.name}>
                 <div className="details">
+                  {/* Tried to add dynamic entry */}
+                  {/* {Object.entries(mobile).map(([key, value]) => (
+                    <p>
+                      <span style={{ textTransform: "capitalize" }}>{key}</span>{" "}
+                      - {value}
+                    </p>
+                  ))} */}
                   <h3>{mobile.name}</h3>
                   <p>Pros: {mobile.pros}</p>
                   <p>Cons: {mobile.cons}</p>
